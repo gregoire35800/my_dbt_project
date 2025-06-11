@@ -19,6 +19,7 @@ SELECT
   user_pseudo_id,
   1 as column_1,
   ga_session_id,
+  2 as column 2,
   CONCAT(user_pseudo_id, '-', ga_session_id) AS unique_session_id, 
   session_start_time,
   session_end_time,
