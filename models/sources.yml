@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: googles_analytics_4
-    schema: google_analytics_4
+    schema: googles_analytics_4
     tables:
       - name: events_20210131
       
@@ -12,7 +12,7 @@ sources:
       - name: account_manager_region_mapping
 
   - name: sales_database
-    schema: sales_database
+    schema: DBT_formation
     tables:
       - name: feedback
       - name: payment
